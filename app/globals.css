@@ -1,0 +1,33 @@
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+.board{
+  display:flex;
+  flex-wrap: wrap;
+  width: 300px;
+  height: 300px;
+  border: 2px solid black;
+}
+.square{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width:100px;
+  height: 100px;
+  border: 2px solid black;
+  box-sizing: border-box;
+}
+.circle, .cross{
+  font-size: 65px;
+  font-weight: bold;
+}
+.circle{
+  color: green;
+}
+.cross{
+  color: red;
+}
