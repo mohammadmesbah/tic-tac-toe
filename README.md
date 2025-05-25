@@ -1,10 +1,13 @@
 # 🎮 React Tic-Tac-Toe Game
 
-A modern Tic-Tac-Toe game built with Next.js, featuring interactive gameplay, win detection, and responsive design.
-## 🎮 Preview
+A modern Tic-Tac-Toe game built with React.js, featuring interactive gameplay, win detection, and responsive design.
 
-![Tic-Tac-Toe Game Screenshot](./images/winMessage.jpg)
-![Tic-Tac-Toe Game Screenshot](./images/gameover.jpg)
+## 🖼️ Game Preview
+
+<div style="display: flex; gap: 10px;">
+  <img src="./images/winMessage.jpg" alt="Empty game board" width="49%" />
+  <img src="./images/gameover.jpg" alt="Winning combination" width="49%" />
+</div>
 
 ## ✨ Features
 
@@ -53,7 +56,7 @@ Cell.tsx: Handles individual cell clicks and rendering
 page.tsx: Manages game state and winning logic
 
 🛠️ Built With
-Next.js - React framework
+React framework
 
 TypeScript - Type safety
 
@@ -61,8 +64,5 @@ CSS Modules - Component styling
 
 🤝 Contributing
 Contributions are welcome! Please open an issue or submit a pull request.
-
-📜 License
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 Made with ❤️ by Mohammad Mesbah 
