@@ -37,7 +37,7 @@ npm run dev
 Open http://localhost:3000 in your browser to play!
 
 🏗️ Project Structure
-/tic-tac-toe
+tic-tac-toe/
 ├── app/
 │   ├── page.tsx         # Main game component
 │   └── globals.css      # Global styles
