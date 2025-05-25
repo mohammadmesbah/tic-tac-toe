@@ -53,7 +53,7 @@ export default function Home() {
             />
           ))}
         </div>
-        <div>{winningMessage}</div>
+        <div className="winning-message">{winningMessage}</div>
         {!winningMessage && <div>Next player: {currentPlayer}</div>}
         </main>
   );

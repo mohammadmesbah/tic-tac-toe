@@ -1,36 +1,68 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🎮 React Tic-Tac-Toe Game
 
-## Getting Started
+A modern Tic-Tac-Toe game built with Next.js, featuring interactive gameplay, win detection, and responsive design.
+## 🎮 Preview
 
-First, run the development server:
+![Tic-Tac-Toe Game Screenshot](./images/winMessage.jpg)
+![Tic-Tac-Toe Game Screenshot](./images/gameover.jpg)
 
-```bash
+## ✨ Features
+
+- Classic 3x3 Tic-Tac-Toe gameplay
+- Real-time win detection (8 possible winning combinations)
+- Turn-based system (Circle vs Cross)
+- Game over detection (draw/tie)
+- Responsive design with clean UI
+- Color-coded players (Green O's vs Red X's)
+- Built with modern React hooks and TypeScript
+
+## 🚀 Getting Started
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/tic-tac-toe.git
+Install dependencies:
+
+bash
+npm install
+
+Run the development server:
+
+bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open http://localhost:3000 in your browser to play!
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+🏗️ Project Structure
+/tic-tac-toe
+├── app/
+│   ├── page.tsx         # Main game component
+│   └── globals.css      # Global styles
+├── components/
+│   └── cell.tsx         # Individual cell component
+└── README.md            # You are here
+🧠 How It Works
+Game Logic: The game checks all 8 possible winning combinations after each move
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+State Management: Uses React's useState and useEffect hooks
 
-## Learn More
+Components:
 
-To learn more about Next.js, take a look at the following resources:
+Cell.tsx: Handles individual cell clicks and rendering
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+page.tsx: Manages game state and winning logic
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+🛠️ Built With
+Next.js - React framework
 
-## Deploy on Vercel
+TypeScript - Type safety
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+CSS Modules - Component styling
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+🤝 Contributing
+Contributions are welcome! Please open an issue or submit a pull request.
+
+📜 License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+Made with ❤️ by Mohammad Mesbah 
